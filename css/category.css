@@ -1,0 +1,165 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*===================搜索栏=========================*/
+.jd_topbar{
+    width: 100%;
+    background: url("../images/header-bg.png")repeat-x;
+    border-bottom: 1px solid #d7d7d7;
+    position: relative;
+    z-index: 10;
+}
+/*====================搜索栏两侧图标==============*/
+.jd_topbar .icon_back,
+.jd_topbar .icon_menu{
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+.jd_topbar .icon_back{
+    background-position: -20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.jd_topbar .icon_menu{
+    background-position: -60px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*===================搜索栏中间搜索框=================*/
+.jd_topbar form{
+    width: 100%;
+    padding: 10px 44px;
+}
+.jd_topbar form input{
+    width: 100%;
+    height: 24px;
+    border: 1px solid #bfbfbf;
+}
+/*=======================内容区域=====================*/
+.jd_category{}
+/*=======================内容区域左侧边栏===============*/
+.jd_category .jd_cateLeft{}
+.jd_category .jd_cateLeft ul{}
+.jd_category .jd_cateLeft ul li{}
+.jd_category .jd_cateLeft ul li a{}
+/*=======================内容区域右侧边栏================*/
+.jd_category .jd_cateRight{}body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*===================搜索栏=========================*/
+.jd_topbar{
+    width: 100%;
+    background: url("../images/header-bg.png")repeat-x;
+    border-bottom: 1px solid #d7d7d7;
+    position: relative;
+}
+/*====================搜索栏两侧图标==============*/
+.jd_topbar .icon_back,
+.jd_topbar .icon_menu{
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+.jd_topbar .icon_back{
+    background-position: -20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.jd_topbar .icon_menu{
+    background-position: -60px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*===================搜索栏中间搜索框=================*/
+.jd_topbar form{
+    width: 100%;
+    padding: 10px 44px;
+}
+.jd_topbar form input{
+    width: 100%;
+    height: 24px;
+    border: 1px solid #bfbfbf;
+}
+/*=======================内容区域=====================*/
+.jd_category{
+    height: 100%;
+    overflow: hidden;
+}
+/*=======================内容区域左侧边栏===============*/
+.jd_category .jd_cateLeft{
+    height: 100%;
+    float: left;
+}
+.jd_category .jd_cateLeft ul li{
+    width: 90px;
+    height: 50px;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    background-color: #f3f4f6;
+}
+.jd_category .jd_cateLeft ul .now{
+    background-color: #ffffff;
+    border-right: none;
+}
+.jd_category .jd_cateLeft ul .now a{
+    color: #f15353;
+}
+/*=======================内容区域右侧边栏================*/
+.jd_category .jd_cateRight{
+    height: 100%;
+    overflow: hidden;
+}
+/*=======================内容区域右侧大图盒子============*/
+.jd_category .jd_cateRight .jd_cateRight_box{
+    width: 100%;
+    padding: 0 10px;
+}
+.jd_category .jd_cateRight .jd_cateRight_box a img{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+}
+/*===================内容区域右侧热门分类盒子=============*/
+.jd_category .jd_cateRight .jd_cateRight_box .hot{
+    width: 100%;
+    margin-top: 10px;
+}
+/*===================内容区域右侧分类盒子标题=====================*/
+.jd_category .jd_cateRight .jd_cateRight_box .hot h3{
+    font-size: 12px;
+}
+.jd_category .jd_cateRight .jd_cateRight_box .hot ul li{
+    display: block;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+/*=====================内容区域右侧分类盒子图片===================*/
+.jd_category .jd_cateRight .jd_cateRight_box .hot ul li a img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.jd_category .jd_cateRight .jd_cateRight_box .hot ul li a p{
+    font-size: 12px;
+    color: #666;
+    padding: 5px 0;
+}
+
